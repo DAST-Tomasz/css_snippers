@@ -1,0 +1,22 @@
+/* style generalne - start */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+}
+
+li::before {
+    content: "\f0c1";
+    font-family: FontAwesome;
+    font-size: 10px;
+    margin: 5px;
+}

@@ -1,0 +1,17 @@
+/* style generalne - start */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px;
+    font-family: 'Lato', sans-serif;
+}
+
+.tecza {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    background: linear-gradient(to right, violet, blue, red, orange, yellow, green, indigo);
+}

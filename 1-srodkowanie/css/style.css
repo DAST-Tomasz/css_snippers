@@ -1,0 +1,67 @@
+/* style generalne - start */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+div {
+    
+    margin-bottom: 30px;
+}
+
+.kwadrat1 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: relative;    
+}
+
+.in-kwadrat1 {
+    width: 25%;
+    height: 25%;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    position: absolute;    
+}
+
+.kwadrat2 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: relative;    
+}
+
+.in-kwadrat2 {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    top: 25%;
+    left: 25%;
+    position: absolute;    
+}
+
+.kwadrat3 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: relative;    
+}
+
+.in-kwadrat3 {
+    width: 25%;
+    height: 25%;
+    background-color: red;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;    
+}

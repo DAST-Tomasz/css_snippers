@@ -1,0 +1,21 @@
+/* style generalne - start */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#video-wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
